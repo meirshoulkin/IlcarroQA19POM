@@ -5,6 +5,7 @@ import io.appium.java_client.MobileElement;
 import org.openqa.selenium.support.FindBy;
 
 public class SearchResultPage extends BasePage{
+
     public SearchResultPage(AppiumDriver<MobileElement> driver) {
         super(driver);
     }
@@ -24,6 +25,5 @@ public class SearchResultPage extends BasePage{
             return false;
         }
     }
-
 
 }
